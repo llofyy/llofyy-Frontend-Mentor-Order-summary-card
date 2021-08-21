@@ -88,8 +88,9 @@ body {
     font-size: 14px;
 }
 
-.description h4 {
+.description h2 {
     color: hsl(223, 47%, 23%);
+    font-size: 16px;
 }
 
 .proceed {
@@ -126,6 +127,11 @@ body {
 .attribution {
     position: absolute;
     bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and  (max-width: 800px) {
